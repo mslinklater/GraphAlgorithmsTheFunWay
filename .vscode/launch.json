@@ -1,0 +1,14 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Python: main.py",
+            "type": "python",
+            "request": "launch",
+            "program": "${workspaceFolder}/src/graph_algorithms_the_fun_way/main.py",
+            "console": "integratedTerminal",
+            "cwd": "${workspaceFolder}/src/graph_algorithms_the_fun_way",
+            "justMyCode": true
+        }
+    ]
+}
