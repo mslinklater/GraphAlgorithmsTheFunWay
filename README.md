@@ -45,3 +45,26 @@ and you can run the unittests from the tests directory
 >> cd tests/graph_algorithms_the_fun_way
 >> python -m unittest
 ```
+
+## Graph Visualization
+
+You can draw the project's `Graph` objects with optional visualization dependencies:
+
+```
+pip install '.[viz]'
+```
+
+Example:
+
+```python
+from graph_algorithms_the_fun_way.graph import Graph
+from graph_algorithms_the_fun_way.visualization import draw_graph
+
+g = Graph(4, undirected=True)
+g.insert_edge(0, 1, 1.0)
+g.insert_edge(1, 2, 1.0)
+g.insert_edge(2, 3, 1.0)
+g.insert_edge(3, 0, 1.0)
+
+draw_graph(g)
+```
