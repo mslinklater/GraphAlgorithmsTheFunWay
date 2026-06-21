@@ -23,7 +23,7 @@ def main():
 	#	g = build_simple_five_node_graph()
 	#g = make_graph_from_weighted_csv("five_node_graph.csv", undirected=False)
 	#g = make_graph_from_weighted_csv("road_network_250_node_graph.csv", undirected=True)
-	g = make_graph_from_weighted_csv("road_network_50_node_graph.csv", undirected=True)
+	g = make_graph_from_weighted_csv("data/road_network_50_node_graph.csv", undirected=True)
 	draw_graph(g, layout="spring", show_weights=True, show=True)
 
 
